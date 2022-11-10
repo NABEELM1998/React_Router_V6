@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  display: flex;
+  background: rgb(35,85,169);
+}
+.header a{
+  text-decoration: none;
+  color: white;
+}
+.header span{
+  padding: 5px;
+  display: inline-block;
+}
+.header .active{
+  background-color: rgb(12,48,109);
+  border-bottom: solid white;
+}
+
+.sub-menu{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+.sub-menu{
+  text-decoration: none;
+  color: white;
+}
+.sub-menu span{
+  padding: 5px;
+  display: inline-block;
+  background: darkgrey;
+  color: white;
+
+}
+.sub-menu .active span{
+  background: rgb(12, 48, 109);
+}
